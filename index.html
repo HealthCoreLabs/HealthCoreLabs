@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCore Labs</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004d99;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #003366;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1.5em;
+            text-decoration: none;
+            font-size: 1.2em;
+            padding: 1em 0;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #00509e;
+        }
+        .container {
+            padding: 2em;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .section h2 {
+            color: #004d99;
+            border-bottom: 2px solid #004d99;
+            padding-bottom: 0.5em;
+        }
+        .section p, .section ul {
+            line-height: 1.6;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #003366;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-form {
+            background: #fff;
+            padding: 2em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact-form h3 {
+            margin-top: 0;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #004d99;
+            color: #fff;
+            border: none;
+            padding: 1em;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        .contact-form button:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HealthCore Labs</h1>
+        <p>Innovating the Future of Healthcare</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#research">Research & Development</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="container">
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>Founded in 2011 by Gideon Kessler, HealthCore Labs (HCL) is a leading innovator in the pharmaceutical and biotechnology industries. Based in New York, we are dedicated to developing cutting-edge therapies and advancing medical science to improve patient outcomes worldwide.</p>
+            <p>Our mission is to provide breakthrough treatments that enhance the quality of life for people around the globe. We pride ourselves on our commitment to research excellence and our passion for transforming healthcare through innovative solutions.</p>
+        </section>
+
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <ul>
+                <li><strong>Innovative Medications:</strong> We specialize in developing advanced pharmaceuticals using state-of-the-art technology and research methods.</li>
+                <li><strong>Gene Therapy:</strong> Our pioneering work in gene therapy aims to address genetic disorders and provide personalized treatment options.</li>
+                <li><strong>Clinical Trials:</strong> HCL conducts comprehensive clinical trials to ensure the efficacy and safety of our products, bringing new solutions to the market efficiently.</li>
+                <li><strong>Bioinformatics:</strong> We utilize bioinformatics and artificial intelligence to enhance data analysis and drive precision medicine.</li>
+            </ul>
+        </section>
+
+        <section id="research" class="section">
+            <h2>Research & Development</h2>
+            <p>HealthCore Labs invests heavily in research and development to push the boundaries of medical science. Our dedicated R&D teams work tirelessly to discover new treatments and technologies that address unmet medical needs.</p>
+            <p>We collaborate with leading academic institutions and industry partners to stay at the forefront of innovation. Our goal is to translate scientific discoveries into effective therapies that make a tangible difference in patients' lives.</p>
+        </section>
+
+   
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="mailto:info@healthcorelabs.com" method="post" enctype="text/plain">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" placeholder="Subject" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 HealthCore Labs. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
